@@ -16,7 +16,9 @@ cat .git/refs/heads/master -> ver qual o commit que está o master
 git branch nome_da_branch -> cria nova branch
 git branch -> lista todas as branchs
 git checkout nome_da_branch -> altera para a branch específica
-
+git reset --hard commit_a_ser_apontado -> aponta o branch atual para um outro ponto de commit
+git reflog -> mostra um log das últimas alterações feitas no repositório
+git merge -X ours/theirs nome_do_branch -> resolve conflitos automaticamente, pegando ours (branch atual) ou theirs (branch que está sendo apontado)
 
 ------------------------- Linux -----------------------
 touch nome_arquivo -> cria um arquivo vazio
