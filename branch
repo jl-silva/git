@@ -1,0 +1,14 @@
+As branchs são utilizadas para criar 'galhos' em um projeto, desta forma é possível que vários projetos corram em paralelo sem haver interferencia de um no outro.
+Para criar uma branch basta usar:
+
+git branch nome_da_branch
+
+-Importante, com este comando a branch apenas é criada, não altera a HEAD para a branch nova.
+
+Para mudar de uma branch para outra utilizar:
+
+git checkout nome_da_branch
+
+Para criar uma branch e já alterar para a nova:
+
+git checkout -b "nome_da_branch"
