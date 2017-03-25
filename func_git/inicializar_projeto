@@ -1,0 +1,7 @@
+Para inicializar um novo projeto git, dentro do diretório que deseja criar o projeto executar o comando:
+
+git init 
+
+Ou para iniciar em um diretório específico:
+
+git init $DIRETORIO

@@ -1,0 +1,21 @@
+git init $DIRETORIO -> Inicia um projeto
+git config --global user.name "Nome" -> altera o nome do usuário global
+git config --global user.email "E-mail" -> altera o email do usuário global
+git status -> Ajuda com um passo a passo do que fazer ou que pode ser feito
+git config --global core.editor "nome_do_editor" -> altera o editor padrão
+git add -> adiciona o arquivo no index ( o que será comitado )
+git reset -> para retirar do index
+git commit -a -> pula a parte do add, porém só funciona nos arquivos que ele já conhece
+git commit -m "texto" -> já adiciona o texto ao commit
+git rm "endereco/arquivo" -> remove o arquivo do git e do diretório 'workspace'
+.gitignore -> criar este arquivo e adicionar todas as pastas/subpastas/arquivos que você queira que o git não versione. ex. vi .gitignore -> dentro colocar jlsilva/*
+git mv "mover ou renomear" -> atalho pelo git para mover/renomear e já adicionar no index
+git log --pretty=oneline -> log em uma linha
+git log -> log de todos os commits
+
+
+
+
+------------------------- Linux -----------------------
+touch nome_arquivo -> cria um arquivo vazio
+vi = i insert, esc sai do inser, :w escreve, :q sai
