@@ -12,8 +12,10 @@ git rm "endereco/arquivo" -> remove o arquivo do git e do diretório 'workspace'
 git mv "mover ou renomear" -> atalho pelo git para mover/renomear e já adicionar no index
 git log --pretty=oneline -> log em uma linha
 git log -> log de todos os commits
-
-
+cat .git/refs/heads/master -> ver qual o commit que está o master
+git branch nome_da_branch -> cria nova branch
+git branch -> lista todas as branchs
+git checkout nome_da_branch -> altera para a branch específica
 
 
 ------------------------- Linux -----------------------
