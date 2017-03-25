@@ -2,4 +2,4 @@ Teste
 
 Adicionar nova linha
 
-Testando branch
+Testando branch, alterando na master.
