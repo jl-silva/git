@@ -19,6 +19,10 @@ git checkout nome_da_branch -> altera para a branch específica
 git reset --hard commit_a_ser_apontado -> aponta o branch atual para um outro ponto de commit
 git reflog -> mostra um log das últimas alterações feitas no repositório
 git merge -X ours/theirs nome_do_branch -> resolve conflitos automaticamente, pegando ours (branch atual) ou theirs (branch que está sendo apontado)
+git remote -> lista os remotes do projeto atual
+git remote -v -> mostra o endereço dos remotes
+git fetch origem_remote -> puxa as informações das branchs do remote
+git branch origem_remote -> lista as branchs do remote
 
 ------------------------- Linux -----------------------
 touch nome_arquivo -> cria um arquivo vazio
