@@ -1,0 +1,11 @@
+Merge serve para buscar as modificações de uma branch para a outra, normalmente de uma branch para a master.
+
+Para fazer o merge:
+
+git merge nome_da_branch
+
+Quando ocorrer algum conflito o git irá informar e pedir para que o mesmo seja resolvido.
+
+Para fazer com que o git resolva conflitos 'automaticamente':
+
+git merge -X ours/theirs nome_do_branch -> resolve conflitos automaticamente, pegando ours (branch atual) ou theirs (branch que está sendo apontado)
