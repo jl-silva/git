@@ -1,0 +1,10 @@
+Commit serve para enviar as alterações feitas e 'revisadas' para o diretório do git local.
+Forma simples de utilizar é:
+
+git commit
+
+isso irá abrir o editor padrão do git para que seja adicionado o texto do commit.
+O commit também aceita alguns parâmetros como:
+
+-a -> pula a etapa do git add (adicionar os arquivos ao index) porém só irá comitar alterações feitas em arquivos que o git já conheça. Não irá adicionar novos arquivos ao git;
+-m "texto" -> não irá abrir o editor de texto, ao invés já irá utilizar o texto que for fornecido no parâmetro;
